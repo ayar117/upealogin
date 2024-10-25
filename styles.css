@@ -1,0 +1,54 @@
+body {
+    background-image: url('ruta-de-tu-imagen.jpg'); /* Agrega la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.3); /* Fondo blanco con transparencia */
+    border: 2px solid white; /* Borde blanco */
+    border-radius: 15px; /* Bordes redondeados opcional */
+    padding: 20px; /* Ajusta el espacio interior del cuadro */
+  }
+  #email {
+    margin-bottom: 50px; /* Ajusta este valor para cambiar la distancia */
+  }
+  
+  button[type="submit"] {
+    margin-top: 20px; /* Ajusta este valor según el espacio que necesites */
+  }
+  button[type="submit"] {
+    margin: 20px auto; /* Centra el botón horizontalmente */
+    font-size: 14px;
+    padding: 8px 20px;
+    display: block; /* Necesario para que `margin: auto` funcione correctamente */
+  }
+  a {
+    color: white; /* Cambia 'white' por el color que desees */
+    text-decoration: none; /* Remueve el subrayado si no lo quieres */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón por encima */
+  }
+  .btn-outline-primary, .btn-outline-danger {
+    color: white; /* Cambia el color del texto a blanco */
+    border-color: white; /* Cambia el borde a blanco */
+  }
+  
+  .btn-outline-primary:hover, .btn-outline-danger:hover {
+    background-color: white; /* Color de fondo blanco al pasar el mouse */
+    color: black; /* Cambia el texto a negro al pasar el mouse */
+  }
+  .card {
+    background-color: rgba(209, 81, 203, 0.7); /* Fondo azul claro con transparencia */
+    padding: 20px;
+    border-radius: 15px; /* Bordes redondeados opcional */
+  }
+  .inti-title {
+    font-size: 24px; /* Ajusta el tamaño del texto */
+    color: white;
+    text-align: center;
+  }
